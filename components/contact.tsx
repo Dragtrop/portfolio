@@ -2,7 +2,6 @@
 
 import { dataContact } from "@/data";
 import Title from "./shared/title";
-import Link from "next/link";
 import Image from "next/image.js";
 
 const Contact = () => {

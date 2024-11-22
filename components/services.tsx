@@ -1,6 +1,4 @@
 import { dataExperience } from "@/data"; 
-import Title from "./shared/title";
-import { Check } from "lucide-react";
 import Image from "next/image";
 
 const Services = () => {
