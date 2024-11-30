@@ -8,7 +8,7 @@ import Image from "next/image";
 const AboutMe = () => {
     return (
         <div className="p-6 md:px-12 md:py-30 max-w-5xl mx-auto" id="about-me">
-            <Title title="Sobre mi" subtitle="Conóceme" />
+            <Title title="About me" subtitle="Get to know me" />
 
             <div className="grid md:grid-cols-2">
                 <div className="py-12 md:py-0 flex items-center justify-center">
@@ -49,13 +49,13 @@ const AboutMe = () => {
                             </div>
                         ))}
                     </div>
-                    <p className="my-8">Soy un desarrollador apasionado que empezó a programar a los 17 años.
-                         El amplio tiempo libre que tenia a esa edad me llevo a aprender mucho sobre distintos
-                        idiomas de programación enfocándome principalmente en los de desarrollo web.
-                        Me especializo principalmente en TypeScript, Python y JavaScript. Además, también 
-                        tengo conocimientos sobre C, C++ y Java. Soy una persona tranquila y creativa que
-                        tiene buena capacidad para trabajar en equipo. Principalmente me enfoco a profesionalizarme
-                        como desarrollador Full-Stack, enfocándome principalmente en el desarrollo Back-End.
+                    <p className="my-8">I am a passionate developer who started programming at the age of 17.
+                    The ample free time I had at that age allowed me to learn a lot about various programming languages,
+                     focusing mainly on web development.I specialize primarily in TypeScript,
+                      Python, and JavaScript. Additionally, I also have knowledge of C, C++, and Java.
+                      I am a calm and creative person with strong teamwork skills. My main focus is to 
+                      professionalize myself as a Full-Stack developer, with a particular emphasis on Back-End 
+                      development.
                         </p>
                 </div>
             </div>

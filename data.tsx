@@ -3,21 +3,21 @@ import { BellPlus, BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, M
 export const dataAboutMe = [
     {
         id: 1,
-        name: "Experiencia",
+        name: "Experience",
         icon: <Briefcase />,
-        description: "+4 años de experiencia",
+        description: "+3 Years of experience",
     },
     {
         id: 2,
-        name: "Clientes",
+        name: "Clients",
         icon: <UsersRound />,
-        description: "+200 clientes satisfechos",
+        description: "+20 Satisfied clients",
     },
     {
         id: 3,
-        name: "Proyectos",
+        name: "Proyects",
         icon: <Wrench />,
-        description: "+50 completados",
+        description: "+10 completed",
     },
 ];
 
@@ -73,46 +73,19 @@ export const dataSlider = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
-        image: "/image-1.jpg",
-        urlGithub: "#!",
+        title: "Simple Crud",
+        image: "/port1.jpg",
+        urlGithub: "https://github.com/Dragtrop/Product-Crud",
         urlDemo: "#!",
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
-        image: "/image-2.jpg",
-        urlGithub: "#!",
+        title: "Garages Web Page(In progress)",
+        image: "/port2.jpg",
+        urlGithub: "https://github.com/Dragtrop/Repositorio-TP-Backend",
         urlDemo: "#!",
     },
-    {
-        id: 3,
-        title: "Estrategias Web",
-        image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 4,
-        title: "Navegando Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 5,
-        title: "Sitios Web Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Proyectos Web Dinámicos",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
+    
 ];
 export const dataExperience = [
     {
@@ -121,28 +94,28 @@ export const dataExperience = [
         experience: [
             {
                 name: "HTML",
-                subtitle: "Experimentado",
+                subtitle: "Experienced",
                 url: "/html.png",
 
             },
             {
                 name: "CSS",
-                subtitle: "Intermedio",
+                subtitle: "Intermediate",
                 url: "/css.png",
             },
             {
                 name: "JavaScript",
-                subtitle: "Experimentado",
+                subtitle: "Experienced",
                 url: "/js.png",
             },
             {
                 name: "TypeScript",
-                subtitle: "Intermedio",
+                subtitle: "Intermediate",
                 url: "/ts.png",
             },
             {
                 name: "C++",
-                subtitle: "Intermedio",
+                subtitle: "Basic",
                 url: "/c++.png",
             }
 
@@ -154,22 +127,22 @@ export const dataExperience = [
         experience: [
             {
                 name: "Next.JS",
-                subtitle: "Experimentado",
+                subtitle: "Experienced",
                 url: "/next.png",
             },
             {
                 name: "Tailwind CSS",
-                subtitle: "Intermedio",
+                subtitle: "Intermediate",
                 url: "/tailwind.png",
             },
             {
                 name: "React",
-                subtitle: "Experimentado",
+                subtitle: "Experienced",
                 url: "/react.png",
             },
             {
                 name: "Git Bash",
-                subtitle: "Intermedio",
+                subtitle: "Intermediate",
                 url: "/git.png",
             },
         ],
@@ -180,12 +153,12 @@ export const dataExperience = [
         experience: [
             {
                 name: "Mongo DB",
-                subtitle: "Intermedio",
+                subtitle: "Basic",
                 url: "/mongo.png",
             },
             {
                 name: "MySQL",
-                subtitle: "Experimentado",
+                subtitle: "Experienced",
                 url: "/sql.png",
             },
         ],
