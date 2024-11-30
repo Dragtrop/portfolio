@@ -11,7 +11,7 @@ const Contact = () => {
   
   const copyTextToClipboard = (text: string) => {
     navigator.clipboard.writeText(text).then(() => {
-      alert('Texto copiado al portapapeles');
+      alert('Texto copy');
     });
   };
 
@@ -36,7 +36,7 @@ const Contact = () => {
   };
 
   const handleCancel = () => {
-    setIsModalOpen(false); // Cerramos el modal si el usuario cancela
+    setIsModalOpen(false);
   };
 
   return (
@@ -92,7 +92,7 @@ const Contact = () => {
       {isModalOpen && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
           <div className="bg-black p-6 rounded-lg shadow-lg w-80">
-            <h2 className="text-lg mb-4 text-red-500">Please click on 'Copy' and you will copy my discord nickname, open discord and send me a Friend Request.</h2>
+            <h2 className="text-lg mb-4 text-red-500">Please click on Copy and you will copy my discord nickname, open discord and send me a Friend Request.</h2>
             <div className="flex justify-between">
               <button
                 onClick={handleCopy}
