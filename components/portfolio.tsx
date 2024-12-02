@@ -9,7 +9,7 @@ const Portfolio = () => {
         <div className="p-4 max-w-4xl md:py-24 mx-auto text-center" id="portfolio">
             <Title title="Portfolio" subtitle="Some of My Projects 💼" />
 
-            <div className="grid md:grid-cols-2 gap-10 mt-4">
+            <div className="grid md:grid-cols-3 gap-10 mt-4">
                 {dataPortfolio.map((data) => (
                     <div key={data.id}>
                         <h3 className="text-xl mb-4">{data.title}</h3>

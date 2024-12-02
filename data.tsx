@@ -85,6 +85,13 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/Dragtrop/Repositorio-TP-Backend",
         urlDemo: "#!",
     },
+    {
+        id: 2,
+        title: "Portfolio Web Page",
+        image: "/port3.jpg",
+        urlGithub: "https://github.com/Dragtrop/portfolio",
+        urlDemo: "#!",
+    },
     
 ];
 export const dataExperience = [
